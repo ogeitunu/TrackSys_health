@@ -41,29 +41,20 @@ function App() {
               fill="horizontal"
             >
 
-              <FormField
-                margin={{
-                  vertical: ".5em"
-                }}
-              >
-                <TextInput placeholder="Name" size="14px"/>
+              <FormField>
+                <button><TextInput placeholder="Name" size="14px"/></button>
               </FormField>
-              <FormField
-                margin={{
-                  vertical: ".5em"
-                }}
-              >
-                <TextInput placeholder="Email" type="email" size="14px" />
+              <br></br>
+              <FormField>
+
+                <button><TextInput placeholder="Email" type="email" size="14px" /></button>
               </FormField>
-              <FormField
-                margin={{
-                  top: ".5em",
-                  bottom:"2em"
-                }}
-     
-              >
-                <TextInput placeholder="Password" type="password" size="14px" />
+              <br></br>
+              <FormField>
+
+                <button> <TextInput placeholder="Password" type="password" size="14px" /></button>
               </FormField>
+              <br></br>
 
               <Button 
               primary 
