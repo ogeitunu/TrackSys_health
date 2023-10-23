@@ -1,17 +1,17 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import App from './App';
-import { Grommet } from 'grommet';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App";
+import { Grommet } from "grommet";
 
 const theme = {
   global: {
-    font:{
+    font: {
       family: "Roboto",
-      size:"18px"
+      size: "18px",
     },
   },
-}
-const root = ReactDOM.createRoot(document.getElementById('root'));
+};
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <Grommet theme={theme}>

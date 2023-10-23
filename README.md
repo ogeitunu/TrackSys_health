@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
-In the project directory, you can run:
+In the project directory, i was able to run:
 
 ### `npm start`
 
@@ -68,3 +68,24 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Project: Injury Tracking System
+A web application that can be used by an organization (such as the police) to easily record and track the injuries reported by a person
+
+### Required Feartures
+Injury Report system is required on building this project such as Name of reporter
+Date & time of injury and Body Map
+List of Injuries
+Report tracking of Injuries
+User Authentication and 
+UIUX
+
+### Installation
+NextJs; Installation of Node.Js  and npm or yarn
+The use of React Libraries and Frameworks
+Installation of Progressive Web App, PWA
+And backend Graphql
+
+### Team
+Ogechukwu Itunu Aina
+
