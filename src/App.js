@@ -8,7 +8,6 @@ import {
   Heading,
   Text,
   TextInput,
-  FormField,
   Button,
 } from "grommet";
 import { Google } from "grommet-icons";
@@ -69,28 +68,28 @@ function App() {
               }}
               fill="horizontal"
             >
-              <FormField
+              <Button
                 margin={{
                   vertical: ".5em",
                 }}
               >
                 <TextInput placeholder="Name" size="14px" />
-              </FormField>
-              <FormField
+              </Button>
+              <Button
                 margin={{
                   vertical: ".5em",
                 }}
               >
                 <TextInput placeholder="Email" type="email" size="14px" />
-              </FormField>
-              <FormField
+              </Button>
+              <Button
                 margin={{
                   top: ".5em",
                   bottom: "2em",
                 }}
               >
                 <TextInput placeholder="Password" type="password" size="14px" />
-              </FormField>
+              </Button>
 
               <Button
                 primary
