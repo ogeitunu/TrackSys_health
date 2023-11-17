@@ -5,8 +5,8 @@ import {
   Box,
   Carousel,
   Image,
-  Heading,
   Text,
+  Heading, 
   TextInput,
   Button,
 } from "grommet";
